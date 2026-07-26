@@ -15,11 +15,11 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "ClipWise — All your coupons. One app. One photo." },
+      { title: "CouponHub — All your coupons. One app. One photo." },
       {
         name: "description",
         content:
-          "Clip, organize, and track coupons from Target, CVS, Walgreens, H-E-B, Dollar General, and more. Snap a photo of any aisle to see which products match your saved coupons.",
+          "Clip, organize, and track coupons from Target, CVS, Walgreens, H-E-B, Dollar General, and more. Snap a photo of any aisle to see which products match your saved coupons — with CouponHub.",
       },
     ],
     links: [{ rel: "stylesheet", href: appCss }],
@@ -85,7 +85,7 @@ function RootDocument({ children }: { children: ReactNode }) {
                   strokeLinecap="round"
                 />
               </svg>
-              ClipWise
+              CouponHub
             </Link>
 
             {/* Desktop nav */}
@@ -162,7 +162,7 @@ function RootDocument({ children }: { children: ReactNode }) {
 
         <footer className="border-t border-gray-100 bg-gray-50">
           <div className="mx-auto max-w-7xl px-4 py-8 text-center text-sm text-gray-500 sm:px-6 lg:px-8">
-            &copy; {new Date().getFullYear()} ClipWise. All rights reserved.
+            &copy; {new Date().getFullYear()} CouponHub. All rights reserved.
           </div>
         </footer>
 

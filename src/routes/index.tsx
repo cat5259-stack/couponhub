@@ -173,7 +173,7 @@ function FeaturesSection() {
             Everything you need to save more
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            ClipWise brings together every feature serious couponers need — in
+            CouponHub brings together every feature serious couponers need — in
             one beautifully designed app.
           </p>
         </div>
@@ -218,7 +218,7 @@ const steps = [
     step: "3",
     title: "Snap & Save",
     description:
-      "Take a photo of the aisle. ClipWise instantly shows which products match your coupons.",
+      "Take a photo of the aisle. CouponHub instantly shows which products match your coupons.",
   },
 ];
 
@@ -228,7 +228,7 @@ function HowItWorksSection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            How ClipWise works
+            How CouponHub works
           </h2>
           <p className="mt-4 text-lg text-gray-600">
             Three simple steps to couponing smarter — not harder.
@@ -273,7 +273,7 @@ function WaitlistSection() {
             Be first in line
           </h2>
           <p className="mt-4 text-lg text-emerald-100">
-            ClipWise is launching soon. Join the waitlist for early access and a
+            CouponHub is launching soon. Join the waitlist for early access and a
             free premium trial.
           </p>
 
@@ -296,7 +296,7 @@ function WaitlistSection() {
                 You're on the list!
               </p>
               <p className="mt-1 text-emerald-200">
-                We'll let you know when ClipWise launches.
+                We'll let you know when CouponHub launches.
               </p>
             </div>
           ) : (
